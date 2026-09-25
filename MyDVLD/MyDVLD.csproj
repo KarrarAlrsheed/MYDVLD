@@ -52,10 +52,46 @@
     <Compile Include="MainFrm.Designer.cs">
       <DependentUpon>MainFrm.cs</DependentUpon>
     </Compile>
+    <Compile Include="People\AddUpdateFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="People\AddUpdateFrm.Designer.cs">
+      <DependentUpon>AddUpdateFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\Contrals\PersonInfoControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="People\Contrals\PersonInfoControl1.Designer.cs">
+      <DependentUpon>PersonInfoControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\Contrals\PersonInofWithFiltterControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="People\Contrals\PersonInofWithFiltterControl.Designer.cs">
+      <DependentUpon>PersonInofWithFiltterControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\MangePeopleFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="People\MangePeopleFrm.Designer.cs">
+      <DependentUpon>MangePeopleFrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MainFrm.resx">
       <DependentUpon>MainFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\AddUpdateFrm.resx">
+      <DependentUpon>AddUpdateFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\Contrals\PersonInfoControl1.resx">
+      <DependentUpon>PersonInfoControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\Contrals\PersonInofWithFiltterControl.resx">
+      <DependentUpon>PersonInofWithFiltterControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\MangePeopleFrm.resx">
+      <DependentUpon>MangePeopleFrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -97,6 +133,81 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SearchPerson.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\People 400.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add Person 72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Number 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Male 512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Female 512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Person 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Man 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Address 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Male 5121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Phone 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Email 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add Person 40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notes 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PersonDetails 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add Person 401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send email 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Phone 321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddPerson 32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

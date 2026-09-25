@@ -50,7 +50,7 @@
             this.driversToolStripMenuItem,
             this.usersToolStripMenuItem,
             this.settingsToolStripMenuItem});
-			this.menuStrip1.Location = new System.Drawing.Point(221, 9);
+			this.menuStrip1.Location = new System.Drawing.Point(313, 9);
 			this.menuStrip1.Name = "menuStrip1";
 			this.menuStrip1.Size = new System.Drawing.Size(679, 72);
 			this.menuStrip1.TabIndex = 1;
@@ -63,6 +63,7 @@
 			this.applecationToolStripMenuItem.Name = "applecationToolStripMenuItem";
 			this.applecationToolStripMenuItem.Size = new System.Drawing.Size(162, 68);
 			this.applecationToolStripMenuItem.Text = "Applecation ";
+			this.applecationToolStripMenuItem.Click += new System.EventHandler(this.applecationToolStripMenuItem_Click);
 			// 
 			// peopleToolStripMenuItem
 			// 
@@ -71,6 +72,7 @@
 			this.peopleToolStripMenuItem.Name = "peopleToolStripMenuItem";
 			this.peopleToolStripMenuItem.Size = new System.Drawing.Size(130, 68);
 			this.peopleToolStripMenuItem.Text = "People ";
+			this.peopleToolStripMenuItem.Click += new System.EventHandler(this.peopleToolStripMenuItem_Click);
 			// 
 			// driversToolStripMenuItem
 			// 
@@ -107,7 +109,7 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImage = global::MyDVLD.Properties.Resources.wallpaper;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.ClientSize = new System.Drawing.Size(1166, 569);
+			this.ClientSize = new System.Drawing.Size(1351, 569);
 			this.Controls.Add(this.menuStrip1);
 			this.IsMdiContainer = true;
 			this.MainMenuStrip = this.menuStrip1;
@@ -116,6 +118,7 @@
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Main ";
 			this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+			this.Load += new System.EventHandler(this.MainFrm_Load);
 			this.menuStrip1.ResumeLayout(false);
 			this.menuStrip1.PerformLayout();
 			this.ResumeLayout(false);

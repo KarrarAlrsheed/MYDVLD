@@ -3,6 +3,10 @@ C:\Users\krari\source\repos\MyDVLD\MyDVLD\bin\Debug\MyDVLD.exe
 C:\Users\krari\source\repos\MyDVLD\MyDVLD\bin\Debug\MyDVLD.pdb
 C:\Users\krari\source\repos\MyDVLD\MyDVLD\obj\Debug\MyDVLD.csproj.AssemblyReference.cache
 C:\Users\krari\source\repos\MyDVLD\MyDVLD\obj\Debug\MyDVLD.MainFrm.resources
+C:\Users\krari\source\repos\MyDVLD\MyDVLD\obj\Debug\MyDVLD.People.AddUpdateFrm.resources
+C:\Users\krari\source\repos\MyDVLD\MyDVLD\obj\Debug\MyDVLD.People.Contrals.PersonInfoControl.resources
+C:\Users\krari\source\repos\MyDVLD\MyDVLD\obj\Debug\MyDVLD.People.Contrals.PersonInofWithFiltterControl.resources
+C:\Users\krari\source\repos\MyDVLD\MyDVLD\obj\Debug\MyDVLD.People.MangePeopleFrm.resources
 C:\Users\krari\source\repos\MyDVLD\MyDVLD\obj\Debug\MyDVLD.Properties.Resources.resources
 C:\Users\krari\source\repos\MyDVLD\MyDVLD\obj\Debug\MyDVLD.csproj.GenerateResource.cache
 C:\Users\krari\source\repos\MyDVLD\MyDVLD\obj\Debug\MyDVLD.csproj.CoreCompileInputs.cache

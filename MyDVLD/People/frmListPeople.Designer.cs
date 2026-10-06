@@ -1,6 +1,6 @@
 ﻿namespace MyDVLD.People
 {
-	partial class MangePeopleFrm
+	partial class frmListPeople
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -30,7 +30,7 @@
 		{
 			this.components = new System.ComponentModel.Container();
 			this.label1 = new System.Windows.Forms.Label();
-			this.dataGridView1 = new System.Windows.Forms.DataGridView();
+			this.dgvPeople = new System.Windows.Forms.DataGridView();
 			this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
 			this.showDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.addToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -40,7 +40,7 @@
 			this.phoneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.pictureBox2 = new System.Windows.Forms.PictureBox();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
-			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.dgvPeople)).BeginInit();
 			this.contextMenuStrip1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -58,14 +58,14 @@
 			this.label1.Text = "Mange People";
 			this.label1.Click += new System.EventHandler(this.label1_Click);
 			// 
-			// dataGridView1
+			// dgvPeople
 			// 
-			this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dataGridView1.ContextMenuStrip = this.contextMenuStrip1;
-			this.dataGridView1.Location = new System.Drawing.Point(-1, 237);
-			this.dataGridView1.Name = "dataGridView1";
-			this.dataGridView1.Size = new System.Drawing.Size(1167, 202);
-			this.dataGridView1.TabIndex = 2;
+			this.dgvPeople.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			this.dgvPeople.ContextMenuStrip = this.contextMenuStrip1;
+			this.dgvPeople.Location = new System.Drawing.Point(-1, 237);
+			this.dgvPeople.Name = "dgvPeople";
+			this.dgvPeople.Size = new System.Drawing.Size(1167, 202);
+			this.dgvPeople.TabIndex = 2;
 			// 
 			// contextMenuStrip1
 			// 
@@ -151,18 +151,18 @@
 			this.pictureBox1.TabIndex = 0;
 			this.pictureBox1.TabStop = false;
 			// 
-			// MangePeopleFrm
+			// frmListPeople
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1170, 591);
 			this.Controls.Add(this.pictureBox2);
-			this.Controls.Add(this.dataGridView1);
+			this.Controls.Add(this.dgvPeople);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.pictureBox1);
-			this.Name = "MangePeopleFrm";
+			this.Name = "frmListPeople";
 			this.Text = "MangePeople";
-			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.dgvPeople)).EndInit();
 			this.contextMenuStrip1.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -175,7 +175,7 @@
 
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.DataGridView dataGridView1;
+		private System.Windows.Forms.DataGridView dgvPeople;
 		private System.Windows.Forms.PictureBox pictureBox2;
 		private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
 		private System.Windows.Forms.ToolStripMenuItem showDeToolStripMenuItem;

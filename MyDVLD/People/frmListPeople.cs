@@ -7,14 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using DVLD_Buisness;
 namespace MyDVLD.People
 {
-	public partial class MangePeopleFrm : Form
+	public partial class frmListPeople : Form
 	{
-		public MangePeopleFrm()
+		public frmListPeople()
 		{
 			InitializeComponent();
+			_RefreshPeooleList();
+		}
+		private void _RefreshPeooleList()
+		{
+
+			dgvPeople.DataSource = ClsPerson.GetAllPeople(); 
 		}
 
 		private void label1_Click(object sender, EventArgs e)

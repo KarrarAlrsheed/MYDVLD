@@ -12,3 +12,4 @@ C:\Users\krari\source\repos\MyDVLD\MyDVLD\obj\Debug\MyDVLD.csproj.GenerateResour
 C:\Users\krari\source\repos\MyDVLD\MyDVLD\obj\Debug\MyDVLD.csproj.CoreCompileInputs.cache
 C:\Users\krari\source\repos\MyDVLD\MyDVLD\obj\Debug\MyDVLD.exe
 C:\Users\krari\source\repos\MyDVLD\MyDVLD\obj\Debug\MyDVLD.pdb
+C:\Users\krari\source\repos\MyDVLD\MyDVLD\obj\Debug\MyDVLD.People.frmListPeople.resources
